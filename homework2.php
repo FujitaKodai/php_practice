@@ -4,8 +4,8 @@ echo '課題１：';
 
 $name = "FUJITA KOUDAI";
 
-if ($name == "FUJITA KOUDAI"){
-    echo '私は',$name,'です';
+if ($name == "FUJITA KOUDAI") {
+    echo '私は', $name, 'です';
     echo "\n";
 } else {
     echo "あなたの名前ではありません";
@@ -13,7 +13,7 @@ if ($name == "FUJITA KOUDAI"){
   
  echo '課題2：';
  $total = 0;
- for( $i = 0 ; $i <= 10000 ; $i++ ){
+ for($i = 0; $i <= 10000; $i++) {
      $total += $i; 
  }
  echo $total;
@@ -21,9 +21,8 @@ if ($name == "FUJITA KOUDAI"){
  
   echo '課題3：';
   echo "\n";
- $fruits = array("apple" ,"orange", "grape", "banana", "peach");
- 
- foreach( $fruits as $fruit) {
+ $fruits = array("apple", "orange", "grape", "banana", "peach");
+ foreach($fruits as $fruit) {  //指摘箇所($fruits as $fruits)になっていた箇所を変更
      echo $fruit;
      echo "\n";
  }
@@ -31,13 +30,13 @@ if ($name == "FUJITA KOUDAI"){
    echo '課題4：';
    echo "\n";
   
-  $start = 1 ;
-  $end = 100 ;
+  $start = 1;
+  $end = 100;
   
-  for($i = $start ; $i <= $end ; $i++ ){
-      if($i % 5 == 0){
+  for($i = $start; $i <= $end; $i++) {
+      if($i % 5 == 0) {
           echo $i;
           echo "\n";
       }
   }
-  //１２月１０日メンタリングより再提出！！
+  //12月10日メンタリングより再提出！！
